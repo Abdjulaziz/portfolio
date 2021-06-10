@@ -1,7 +1,7 @@
 <template>
   <div class="project-container">
     <div class="projects">
-      <img class="logos" src="@/assets/Techon7.png" alt="" />
+      <img class="logos" src="@/assets/Techon7.svg" alt="" />
     </div>
     <div class="projects">
       <img class="logos" src="@/assets/Hayatplakater.svg" alt="" />
@@ -32,7 +32,7 @@ $mainColor: #ffa500;
 .project-container {
   padding: 3rem 3rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
   color: $mainColor;
   .projects {
@@ -42,7 +42,6 @@ $mainColor: #ffa500;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    border-radius: 5px;
     background-color: #d8d8d8;
     grid-auto-rows: minmax(400px, auto);
     i {

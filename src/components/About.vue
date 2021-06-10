@@ -8,7 +8,8 @@
       </h2>
       <h3>
         C++<br />Python<br />Javascript <br />HTML5 <br />Css3 <br />
-        Scss
+        Scss <br />
+        Java
       </h3>
       <div class="socials">
         <h2>Catch me here: ↓</h2>
@@ -84,11 +85,15 @@ $hoverColor: #fdfffd;
       max-width: 100%;
       display: block;
       height: auto;
-      transition: 1s;
+      border-top-left-radius: 100%;
+      border-bottom-right-radius: 100%;
+      border-bottom-left-radius: 100%;
+
       &:hover {
-        border-top-left-radius: 100%;
-        border-bottom-right-radius: 100%;
-        border-bottom-left-radius: 100%;
+        filter: grayscale(100%);
+        border-top-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        border-bottom-left-radius: 0%;
       }
     }
   }

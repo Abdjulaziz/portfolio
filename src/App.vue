@@ -23,6 +23,8 @@ $secondaryColor: #035d96;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Arimo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   transition: 0.3s;
 }
 </style>
