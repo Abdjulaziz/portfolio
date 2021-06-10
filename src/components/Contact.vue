@@ -4,7 +4,6 @@
 
     <a href="mailto: Abdulazizpriv@gmail.com"><p>Abdulazizpriv@gmail.com</p></a>
     <br />
-    <br />
 
     <p>Copyright 2021 Assao</p>
   </div>
