@@ -27,4 +27,7 @@ $secondaryColor: #035d96;
   -moz-osx-font-smoothing: grayscale;
   transition: 0.3s;
 }
+html {
+  background-color: #002841;
+}
 </style>

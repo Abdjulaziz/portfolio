@@ -34,9 +34,10 @@ export default {
 
 <style lang="scss" scoped>
 $mainColor: #ffa500;
-$secondaryColor: #00568c;
+$secondaryColor: #002841;
 $hoverColor: #fdfffd;
 .about-section {
+  height: 900px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(700px, auto);
@@ -44,7 +45,6 @@ $hoverColor: #fdfffd;
   .text {
     padding-left: 3rem;
     border-top: 10px solid $mainColor;
-    border-bottom: 10px solid $mainColor;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -62,10 +62,13 @@ $hoverColor: #fdfffd;
     .socials {
       i {
         padding: 1rem;
-        color: $mainColor;
+        color: #fff;
         font-size: 4rem;
+        transition: 1s;
         &:hover {
-          color: $hoverColor;
+          color: $mainColor;
+
+          transform: scale(1.2);
         }
       }
     }
@@ -78,7 +81,6 @@ $hoverColor: #fdfffd;
     align-items: center;
     background-color: $secondaryColor;
     border-top: 10px solid $mainColor;
-    border-bottom: 10px solid $mainColor;
     height: 100%;
     width: 100%;
     img {

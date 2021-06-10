@@ -3,6 +3,9 @@
     <h2>Feel free to contact me <i class="fas fa-paper-plane"></i></h2>
 
     <a href="mailto: Abdulazizpriv@gmail.com"><p>Abdulazizpriv@gmail.com</p></a>
+    <br />
+
+    <p>Copyright 2021 Assao</p>
   </div>
 </template>
 
@@ -12,7 +15,12 @@ export default {};
 
 <style lang="scss">
 .contact {
-  padding: 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  padding: 2rem 3rem;
   h2 {
     font-size: 3.5rem;
   }
