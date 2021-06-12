@@ -30,4 +30,25 @@ $secondaryColor: #035d96;
 html {
   background-color: #002841;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #002841;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffa500;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b67702;
+}
 </style>

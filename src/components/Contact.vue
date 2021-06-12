@@ -13,13 +13,13 @@ export default {};
 
 <style lang="scss">
 .contact {
+  margin-top: 5rem;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: #fff;
-  padding: 2rem 3rem;
   h2 {
     font-size: 3.5rem;
   }
