@@ -28,5 +28,8 @@ export default {};
     text-decoration: underline;
     font-size: 2rem;
   }
+  p {
+    padding: 1rem;
+  }
 }
 </style>

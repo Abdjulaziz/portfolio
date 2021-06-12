@@ -20,8 +20,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-div {
-  padding: 1rem;
-}
-</style>
+<style lang="scss" scoped></style>

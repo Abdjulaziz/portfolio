@@ -105,6 +105,9 @@ $hoverColor: #fdfffd;
     grid-template-columns: repeat(1, 1fr);
     place-items: center;
     text-align: center;
+    .text {
+      padding-left: 0rem;
+    }
   }
 }
 @media only screen and (max-width: 600px) {
