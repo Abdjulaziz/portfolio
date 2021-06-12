@@ -13,6 +13,7 @@ export default {};
 
 <style lang="scss">
 .contact {
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;

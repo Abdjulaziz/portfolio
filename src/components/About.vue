@@ -37,11 +37,11 @@ $mainColor: #ffa500;
 $secondaryColor: #002841;
 $hoverColor: #fdfffd;
 .about-section {
-  height: 900px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(700px, auto);
   place-items: center;
+  grid-template-areas: 'img', 'txt';
   .text {
     padding-left: 3rem;
     border-top: 10px solid $mainColor;
@@ -110,7 +110,7 @@ $hoverColor: #fdfffd;
 @media only screen and (max-width: 600px) {
   .about-section {
     .text {
-      font-size: 2rem;
+      font-size: 1rem;
     }
   }
 }

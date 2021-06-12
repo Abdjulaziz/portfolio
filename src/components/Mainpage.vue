@@ -1,7 +1,9 @@
 <template>
-  <About />
-  <Projects />
-  <Contact />
+  <div>
+    <About />
+    <Projects />
+    <Contact />
+  </div>
 </template>
 
 <script>
@@ -18,4 +20,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+div {
+  padding: 1rem;
+}
+</style>

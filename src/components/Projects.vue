@@ -40,9 +40,7 @@
         <h2 class="XD">Adobe XD</h2>
         <h2 class="IA">Illustrator</h2>
         <h2 class="PS">Photoshop</h2>
-        <h2 class="HTML">HTML</h2>
-        <h2 class="CSS">CSS</h2>
-        <h2 class="JS">JS</h2>
+        <h2 class="VUE">VUE</h2>
       </div>
     </div>
     <div class="projects">
@@ -68,14 +66,15 @@ export default {
 <style lang="scss" scoped>
 $mainColor: #ffa500;
 .project-container {
-  padding: 12rem 3rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(300px, auto);
   grid-gap: 1rem;
   color: $mainColor;
   background-color: $mainColor;
 
   .projects {
+    color: #fff;
     filter: grayscale(100%);
     cursor: pointer;
     padding: 1rem;
@@ -84,7 +83,6 @@ $mainColor: #ffa500;
     flex-direction: column;
     text-align: center;
     background-color: #d8d8d870;
-    grid-auto-rows: minmax(400px, auto);
     i {
       font-size: 5rem;
       color: #d8d8d8;
@@ -92,7 +90,7 @@ $mainColor: #ffa500;
     &:hover {
       filter: grayscale(0%);
       transform: scale(0.9);
-      background-color: $mainColor;
+      background-color: #002841;
     }
   }
   .logos {
@@ -110,6 +108,7 @@ $mainColor: #ffa500;
     padding: 2rem 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(auto, auto);
     grid-gap: 1rem;
     .HTML {
       background-color: #e44d26;
@@ -141,17 +140,20 @@ $mainColor: #ffa500;
     }
   }
 }
+@media only screen and (max-width: 1400px) {
+  .project-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+  }
+}
 @media only screen and (max-width: 1200px) {
   .project-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .project-container {
     grid-template-columns: repeat(1, 1fr);
   }
-}
-@media only screen and (max-width: 425px) {
-  /*Small smartphones [325px -> 425px]*/
 }
 </style>
