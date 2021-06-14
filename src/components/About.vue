@@ -109,6 +109,9 @@ $hoverColor: #fdfffd;
       padding-left: 0rem;
     }
   }
+  .image {
+    border: 0%;
+  }
 }
 @media only screen and (max-width: 600px) {
   .about-section {

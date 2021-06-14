@@ -11,7 +11,7 @@
 export default {};
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .contact {
   margin-top: 5rem;
   text-align: center;
@@ -31,5 +31,20 @@ export default {};
   p {
     padding: 1rem;
   }
+}
+@media only screen and (max-width: 800px) {
+.contact {
+  h2 {
+    font-size: 2rem;
+  }
+  a {
+    color: orange;
+    text-decoration: underline;
+    font-size: 1.5rem;
+  }
+  p {
+    padding: 1rem;
+  }
+}
 }
 </style>
