@@ -7,6 +7,7 @@
           <h2 class="XD">Adobe XD</h2>
           <h2 class="IA">Illustrator</h2>
           <h2 class="PS">Photoshop</h2>
+          <h2 class="ID">Indesign</h2>
         </div>
       </div>
       <div class="projects">
@@ -181,6 +182,15 @@ $mainColor: #ffa500;
     align-items: center;
     background-color: #330000;
     color: #fe9c00;
+  }
+  .ID {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #47021e;
+    color: #f73163;
   }
 }
 @media only screen and (max-width: 1660px) {

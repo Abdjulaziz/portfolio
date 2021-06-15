@@ -1,16 +1,19 @@
 <template>
   <div class="about-section">
     <div class="text">
-      <h1>Hello, Im Abdulaziz</h1>
+      <h1>Hello, its Abdulaziz here ✌</h1>
       <h2>
-        I <i class="far fa-heart"></i> programming, and like working with front-end and back-end development<br />Programming
-        languages iknow.
+        Im a bit of a nerd that likes programming and webdevelopment. Below is some languages that i've worked with.
       </h2>
-      <h3>
-        C++<br />Python<br />Javascript <br />HTML5 <br />Css3 <br />
-        Scss <br />
-        Java
-      </h3>
+      <div class="pro-languages">
+        <p class="Cpp">#C++</p>
+        <p class="Python">#Python</p>
+        <p class="Javascript">#Javascript</p>
+        <p class="HTML5">#HTML5</p>
+        <p class="CSS3">#CSS3</p>
+        <p class="SCSS">#SCSS</p>
+        <p class="Java">#Java</p>
+      </div>
       <div class="socials">
         <h2>Catch me here: ↓</h2>
         <a href="https://www.linkedin.com/in/abdulaziz-al-otaibi-0415a6141/" target="_blank"
@@ -58,6 +61,66 @@ $hoverColor: #fdfffd;
     h2,
     h3 {
       padding: 1rem;
+    }
+    .pro-languages {
+      padding-left: 1rem;
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-gap: 5px;
+      font-size: 1.2rem;
+      color: #ffffff;
+      .Cpp {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border-radius: 5px;
+        background-color: #000000;
+      }
+      .Python {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border-radius: 5px;
+        color: #ffd343;
+        background: linear-gradient(#1e415e 10%, #2b5b84 90%);
+      }
+      .Javascript {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border-radius: 5px;
+        color: #000000;
+        background-color: #efd81d;
+      }
+      .HTML5 {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border-radius: 5px;
+        background-color: #e44d26;
+      }
+      .CSS3 {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border-radius: 5px;
+        background-color: #1572b6;
+      }
+      .SCSS {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border-radius: 5px;
+        background-color: #bf4080;
+      }
+      .Java {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border-radius: 5px;
+        background-color: #c33;
+        background: radial-gradient(#c33, #000 99%);
+      }
     }
     .socials {
       i {
@@ -108,9 +171,14 @@ $hoverColor: #fdfffd;
     .text {
       padding-left: 0rem;
     }
-  }
-  .image {
-    border: 0%;
+    .pro-languages {
+      justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+    }
+    .image {
+      border: 0%;
+    } 
   }
 }
 @media only screen and (max-width: 600px) {
