@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="project-container">
-      <div class="projects">
+      <div onclick="window.open('https://techon7.dk/', '_blank');" class="projects">
         <img class="logos" src="@/assets/Techon7.svg" alt="" />
         <div class="made-with">
           <h2 class="XD">Adobe XD</h2>
@@ -10,7 +10,7 @@
           <h2 class="ID">Indesign</h2>
         </div>
       </div>
-      <div class="projects">
+      <div onclick="window.open('https://hayatplakater.dk/', '_blank');" class="projects">
         <img class="logos" src="@/assets/Hayatplakater.svg" alt="" />
         <div class="made-with">
           <h2 class="XD">Adobe XD</h2>
@@ -19,13 +19,13 @@
           <h2 class="VUE">VUE</h2>
         </div>
       </div>
-      <div class="projects">
+      <div onclick="window.open('https://assao.dk/todolist/', '_blank');" class="projects">
         <i class="fas fa-clipboard-list"></i>
         <div class="made-with">
           <h2 class="VUE">VUE</h2>
         </div>
       </div>
-      <div class="projects">
+      <div onclick="window.open('https://assao.dk/robotnordic/', '_blank');" class="projects">
         <img class="logos" src="@/assets/Robonordic.png" alt="" />
         <div class="made-with">
           <h2 class="XD">Adobe XD</h2>
@@ -36,16 +36,7 @@
           <h2 class="JS">JS</h2>
         </div>
       </div>
-      <div class="projects">
-        <img class="logos" src="@/assets/helsebixen.png" alt="" />
-        <div class="made-with">
-          <h2 class="XD">Adobe XD</h2>
-          <h2 class="IA">Illustrator</h2>
-          <h2 class="PS">Photoshop</h2>
-          <h2 class="VUE">VUE</h2>
-        </div>
-      </div>
-      <div class="projects">
+      <div onclick="window.open('https://assao.dk/matas/', '_blank');" class="projects">
         <img class="logos" src="@/assets/Matas.svg" alt="" />
         <div class="made-with">
           <h2 class="XD">Adobe XD</h2>
