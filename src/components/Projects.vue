@@ -110,7 +110,7 @@ $mainColor: #ffa500;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
-  font-size: 1rem;
+  font-size: 0.6rem;
   .HTML {
     padding: 0.5rem;
     display: flex;
